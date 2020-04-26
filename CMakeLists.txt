@@ -4,4 +4,5 @@ project(Algorithm)
 set(CMAKE_CXX_STANDARD 14)
 
 add_executable(main main.cpp)
-add_executable(Demo Sort/Demo.c)
+add_executable(BubbleSorting Sort/BubbleSorting.cpp)
+add_executable(BubbleSortingP Sort/BubbleSortingP.cpp)
